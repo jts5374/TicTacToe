@@ -95,8 +95,7 @@ class Tictactoe
         $winning_moves.each do |arr|
             if @board[arr[0]]==@board[arr[1]] && @board[arr[1]]==@board[arr[2]]
                 puts "The winner is #{@board[arr[0]]}"
-                puts "GAME OVER"
-                
+                puts "GAME OVER"                
                 @gameover=true
             end
         end
